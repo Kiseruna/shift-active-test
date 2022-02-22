@@ -125,9 +125,13 @@ body > header > nav > ul > li > a[href*="/signup"]{
   padding-left:11%;
 }
 
-#features > ul > li > h2, #achievements > ul > li > h2{
+#features > ul > li > h2, #achievements > ul > li > strong{
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
+}
+
+#achievements > ul > li > strong{
+  font-size: 3.3em;
 }
 
 #features > ul > li, #achievements > ul > li{
@@ -169,6 +173,7 @@ body > header > nav > ul > li > a[href*="/signup"]{
 #achievements{
   margin-top: 10%;
 }
+
 #achievements > h1{
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -178,7 +183,7 @@ body > header > nav > ul > li > a[href*="/signup"]{
 .assets{
   background-image: url(images/icon-assets.png);
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: 28%;
   background-position-x: 50%;
   background-position-y: 20%;
 }
@@ -186,7 +191,7 @@ body > header > nav > ul > li > a[href*="/signup"]{
 .investments{
   background-image: url(images/icon-investments.png);
   background-repeat: no-repeat;
-  background-size: 16%;
+  background-size: 28%;
   background-position-x: 50%;
   background-position-y: 20%;
 }
@@ -194,7 +199,7 @@ body > header > nav > ul > li > a[href*="/signup"]{
 .users{
   background-image: url(images/icon-users.png);
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: 33%;
   background-position-x: 50%;
   background-position-y: 20%;
 }
