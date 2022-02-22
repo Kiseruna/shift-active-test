@@ -1,35 +1,18 @@
 Prueba de diagramación
 ----------------------
 
-Para ésta prueba, deberás crear una hoja de estilos basada en el archivo HTML
-de éste directorio, para que sea lo más fiel al diseño en:
-
-https://dribbble.com/shots/6336349-Score-Product-Page/attachments/1356829
-
-Ésta prueba ya tiene una solución, de la cual estimamos una dificultad media,
-y un tiempo de resolución de 3 a 6 horas.
-
-Condiciones:
-
-- NO se puede alterar el HTML.
-- Las imágenes a usar están en /theme/images, en resolución 2x.
-- No estamos evaluando diagramación pixel perfect, sólo debe verse bien
-  proporcionado, con la debida cantidad de espacios en blancos (padding/margin),
-  sin romperse entre 1000px y 1920px de ancho.
-- Usar fuentes de fonts.google.com lo más parecidas posible.
-- Sólo estaremos revisando en Chrome para Windows.
-- Aplicar responsive a conveniencia.
-- Estaremos evaluando:
-	- Uso de algunos de estos selectores CSS (:nth-child(), [attr="val"], >, etc).
-	- Uso de unidades (px, vw/vh, em, etc).
-	- Usos interesantes de posicionamiento, Flex, Grid, contenido generado (::before, ::after), reemplazo de texto (font-size: 0 + background)y background-size.
-- Hay puntos extra por:
-	- Hover en el menú principal
-	- Animaciones CSS de entrada.
-	- Uso de LESS/SASS (Incluir hoja de estilos fuente en la respuesta).
-
-
-- Deberás subir tu diseño a un repositorio en Github, dicho repositorio deberá ser de tu propiedad y en caso de ser privado deberá proporcionar acceso 
-con el objetivo de descargarlo. 
-
-Además el repositorio debe contar con el fichero readme en donde se especifique las características del proyecto (que se uso, que se realizó, entre otros)
+-En esta prueba de diagramación, se realizó una interfaz gráfica para una página web, en la que partiendo de una arquitectura base en HTML
+ se tuvo que ir añadiendo elementos de CSS los cuales brindaran una interacción más amigable con el usuario.
+-Se estilizó el menú de forma horizontal con la propiedad "display:flex" luego se cambiaron los dos últimos elementos para apartar el 4to y 5to
+ elemento de los demás, al 4to elemento se le puso texto blanco con el selector a[href*="/login"] y al quinto elemento se le puso fondo blanco
+ y letras verdes.
+-Se ocultó el texto "Score" y en su reemplazo se ubicó un logotipo.
+-Se importaron fuentes de texto en Google Fonts similares al sitio a replicar.
+-Se aplicaron las fuentes importadas y tamaños en medidas em.
+-Se redimensiona la clase .wrapper para que solo ocupe la parte izquierda de la pantalla.
+-La imagen "bg-1.png" se ubica en la parte derecha del body.
+-La imagen "arrow.png" se ubica como background en el .wrapper y se ubica mediante coordenadas de posicionamiento X y Y.
+-Se modifica una falta ortográfica en el HTML.
+-En la sección que van 3 iconos y 3 enunciados se abren espacios entre elementos con la propiedad margin y luego a los sub elementos con la propiedad padding.
+-Los iconos correspondientes a cada enunciado se trabajan de igual manera que se trabajó con la imagen "arrow.png"
+-Se redimensionan las imagenes desde CSS.
