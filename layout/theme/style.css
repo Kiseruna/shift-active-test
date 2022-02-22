@@ -1,0 +1,200 @@
+/* Importar fuentes de Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter:wght@100;400;700&family=Montserrat:wght@500&family=Poppins:wght@600&display=swap');
+
+/*Sección del menú*/
+body{
+  background-image: url("images/bg-1.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 50em;
+  border-radius:5px;
+}
+body > header > h1{
+  background-image: url("images/logo.png");
+  background-repeat: no-repeat;
+  background-size: 1em;
+  color: transparent;
+  display:inline-block;
+  margin-left:3%;
+}
+
+body > header{
+  position:relative;
+  display:flex;
+}
+
+body > header > nav{
+  position:absolute;
+  left:43%;
+}
+
+body > header > nav > ul > li{
+  font-family: 'Montserrat', sans-serif;
+  color:#000;
+  list-style:none;
+  display:inline-block;
+  padding:1.2em;
+  letter-spacing:-1px;
+}
+
+body > header > nav > ul > li:nth-child(5){
+  background-color:#fff7ed;
+}
+
+body > header > nav > ul > li:nth-child(4){
+  padding-left:10em;
+}
+
+
+body > header > nav > ul > li > a{
+  text-decoration:none;
+  color:#000;
+  list-style:none;
+}
+
+body > header > nav > ul > li > a:hover{
+  border-style: solid;
+  border-color: #1e6246;
+  border-width: 0px 0px 2px 0px;
+  background-color: #eebece;
+  opacity:;
+  transition: 0.5s;
+}
+
+body > header > nav > ul > li > a[href*="/login"]{
+  color:#fff7ed;
+}
+
+body > header > nav > ul > li > a[href*="/login"]:hover{
+  border-style: solid;
+  border-color: #fff7ed;
+  border-width: 0px 0px 2px 0px;
+  background-color: #eebece;
+  opacity:;
+  transition: 0.5s;
+}
+
+body > header > nav > ul > li > a[href*="/signup"]{
+  color:#1e6246;
+}
+
+.wrapper {
+    height: 697px;
+    width: 615px;
+    background-color: #1e6246;
+    margin-top: -10%;
+    background-image: url(images/arrow.png);
+    background-repeat: no-repeat;
+    background-position-x: 69%;
+    background-position-y: 70%;
+    background-size: 8%;
+}
+
+.wrapper > h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 4.5em;
+  color: #eebece;
+  margin-left: 31%;
+  padding-top: 16%;
+  width: 245px;
+  height: 396px;
+}
+
+.wrapper > h1 > em{
+  font-family: 'Poppins', sans-serif;
+  font-style: Normal;
+  -webkit-text-stroke: 1px #eebece;
+  color: transparent;
+}
+
+.wrapper > p{
+  font-family: 'Inter', sans-serif;
+  font-style: Normal;
+  -webkit-text-stroke: 1px #eebece;
+  margin-left: 31%;
+  width: 245px;
+}
+
+#features > h1{
+  color: transparent;
+}
+
+#features > ul, #achievements > ul{
+  display: flex;
+  list-style:none;
+  padding-left:11%;
+}
+
+#features > ul > li > h2, #achievements > ul > li > h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+#features > ul > li, #achievements > ul > li{
+  padding-top: 9%;
+  margin-left: 0%;
+  margin-right: 10%;
+  margin-top: 7%;
+  text-align: center;
+}
+
+#features > ul > li > p, #achievements > ul > li{
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+}
+
+.budgets{
+  background-image: url(images/icon-budgets.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position-x: 50%;
+  background-position-y: 20%;
+}
+
+.bills{
+  background-image: url(images/icon-bills.png);
+  background-repeat: no-repeat;
+  background-size: 16%;
+  background-position-x: 50%;
+  background-position-y: 20%;
+}
+
+.credit{
+  background-image: url(images/icon-credit.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position-x: 50%;
+  background-position-y: 20%;
+}
+#achievements{
+  margin-top: 10%;
+}
+#achievements > h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 2.4em;
+}
+.assets{
+  background-image: url(images/icon-assets.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position-x: 50%;
+  background-position-y: 20%;
+}
+
+.investments{
+  background-image: url(images/icon-investments.png);
+  background-repeat: no-repeat;
+  background-size: 16%;
+  background-position-x: 50%;
+  background-position-y: 20%;
+}
+
+.users{
+  background-image: url(images/icon-users.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position-x: 50%;
+  background-position-y: 20%;
+}
